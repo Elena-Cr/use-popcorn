@@ -49,7 +49,7 @@ export function MovieDetails({
   useEffect(
     function () {
       function callback(e) {
-        if (e.code === "Escape") {
+        if (e?.code === "Escape") {
           onCloseMovie();
         }
       }
